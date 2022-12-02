@@ -279,6 +279,7 @@ namespace Lançar_Nota
             }
         }
         #endregion
+        #region Filtro
         private void TxtFiltro_TextChanged(object sender, EventArgs e)
         {
             switch (CmbFiltro.Text)
@@ -296,6 +297,6 @@ namespace Lançar_Nota
 
             }
         }
-
+        #endregion
     }
 }
